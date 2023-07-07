@@ -2,23 +2,45 @@
 <html lang="pt-BR">
     <head>
         <title>Artigos</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1>Exemplo de artigos</h1>
-        <section>
-            <h2>O que é HTML?</h2>
-            <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web.</p>
-            <a href="./o-que-e-html.html">Ler artigo completo</a>
-        </section>
-        <section>
-            <h2>O que é CSS?</h2>
-            <p>Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo a um documento web.</p>
-            <a href="./o-que-e-css.html">Ler artigo completo</a>
-        </section>
-        <section>
-            <h2>O que é JS?</h2>
-            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
-            <a href="./o-que-e-js.html">Ler artigo completo</a>
-        </section>
+        <div class="d-flex justify-content-center p-5">
+            <h1 class="display-3">Exemplo de artigos</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 p-3">
+                    <div class="row h-100">
+                        <div class="col bg-info pt-5 pr-5 pl-5 pb-1 rounded-left shadow">
+                            <h2>O que é HTML?</h2>
+                            <p class="lead">HTML é uma linguagem de marcação utilizada na construção de páginas na Web.</p>
+                            <p class="d-flex justify-content-end"><a href="./o-que-e-html.html" class="text-dark text-decoration-none">Saber mais ...</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-3">
+                    <div class="row h-100">
+                        <div class="col bg-warning pt-5 pr-5 pl-5 shadow">
+                            <h2>O que é CSS?</h2>
+                            <p class="lead">Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo a um documento web.</p>
+                            <p class="d-flex justify-content-end"><a href="./o-que-e-css.html" class="text-dark text-decoration-none">Saber mais ...</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-3">
+                    <div class="row h-100">
+                        <div class="col bg-danger pt-5 pr-5 pl-5 rounded-right shadow">
+                            <h2>O que é JS?</h2>
+                            <p class="lead">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                            <p class="d-flex justify-content-end"><a href="./o-que-e-js.html" class="text-dark text-decoration-none">Saber mais ...</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="fixed-bottom">
+            <p class="d-flex justify-content-end blockquote-footer pr-2">by Jardel Lazzarotto</p>
+        </footer>
     </body>
 </html>
