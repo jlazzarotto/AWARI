@@ -1,2 +1,2 @@
 # AWARI
-Repositório para armazenar o conteúdos dos cursos da Awari
+Repositório para armazenar o conteúdo do curso Front-end da Awari
